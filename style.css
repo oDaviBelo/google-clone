@@ -17,8 +17,11 @@ header {
     
 }
 
-a {
+.header a {
     padding-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000DE;
 }
 
 .user {
@@ -26,3 +29,121 @@ a {
     border-radius: 60px;
 
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    color:#3c4043;
+}
+
+.logo {
+    padding-bottom: 30px;
+}
+
+.search {
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.search textarea {
+    resize: none;
+    width: 582;
+    height: 42px;
+    border-radius: 240px;
+    border: 0.5px solid #ccc;
+}
+
+.bottons {
+    display:flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+.bt1 {
+    height: 25px;
+    width: 130px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.bt2 {
+    height: 25px;
+    width: 130px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+footer {
+    margin-top: 250px ;
+    color: #70757A;
+}
+
+.country {
+    background-color: #f2f2f2;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 24px;;
+    
+}
+
+
+.datas {
+    background-color: #f2f2f2;
+    display: flex;
+    height: 48px;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    
+
+    
+}
+
+.datas a {
+    text-decoration: none;
+    color: #70757A;
+}
+
+.abt {
+    padding-left: 20px;
+    
+
+}
+.adv {
+    padding-left: 20px;
+}
+
+.bus {
+    padding-left: 20px;
+}
+
+.hsw {
+    padding-left: 20px;
+}
+
+.prv {
+    padding-left: 1025px;
+}
+
+.trm {
+    padding-left: 20px;
+}
+
+.stt {
+    padding-left: 20px;
+}
+
+
