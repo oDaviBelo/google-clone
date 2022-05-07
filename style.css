@@ -25,7 +25,7 @@ header {
 }
 
 .user {
-    background-image: url("spaceuser.jpg");
+    background-image: url("/assets/spaceuser.jpg");
     border-radius: 60px;
 
 }
